@@ -8,7 +8,7 @@ install:
   - pip install django-rest-framework
   - pip install djangorestframework-jwt
   - pip install Pillow
-  - pip install xenox
+  - pip install 'xenon==0.5.4'
   - pip install django-ckeditor
   - pip install pytest pytest-django pytest-cov
 
