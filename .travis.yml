@@ -15,6 +15,3 @@ install:
 script:
   - pytest
 
-after_success:
-  - pip install coveralls
-  - coveralls
