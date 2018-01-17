@@ -32,3 +32,4 @@ urllib3==1.22
 xenon==0.5.4
 whitenoise
 django_heroku
+gunicorn
