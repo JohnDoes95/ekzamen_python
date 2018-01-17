@@ -5,11 +5,11 @@ python:
 
 install:
   - pip install 'django==1.11.8'
-  - pip install django-rest-framework
-  - pip install djangorestframework-jwt
-  - pip install Pillow
+  - pip install 'django-rest-framework==0.1.0'
+  - pip install 'djangorestframework-jwt==1.11.0'
+  - pip install 'Pillow==5.0.0'
   - pip install 'xenon==0.5.4'
-  - pip install django-ckeditor
+  - pip install 'django-ckeditor==5.4.0'
   - pip install pytest pytest-django pytest-cov
 
 script:
